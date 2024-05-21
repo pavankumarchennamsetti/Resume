@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 2%;
+    background-color:white;
+    border: 2px dotted black;
+    border-radius: 5px;
+    font-family:sans-serif;
+    letter-spacing: 0.5px;
+}
+.title{
+    text-align: center;
+    letter-spacing: 1px;
+}
+#contact{
+    display:flex;
+    justify-content:space-between;
+    line-height: 1;
+    padding-right: 2px;
+}
+#role{
+    color:brown;
+}
+.header{
+    padding: 1%;
+    background-color: rgb(190, 242, 106);
+    /*background-color: cadetblue;*/
+    line-height: 0.5;
+}
+.links{
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
+    color: rgb(49, 131, 246);
+}
+#career{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+.content{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#skillset{
+    font-size: 22px;
+    margin: 0%;
+    padding: 10% 0% 0% 0%;
+    text-align: center;
+}
+div.skills{
+    background-color:rgb(224, 241, 241);
+    margin: 5px;
+    border-radius: 8px;
+    width: 35%;
+    padding-bottom: 0;
+}
+ul.skill-list{
+    padding-right: 30px;
+}
+@media screen and (min-width:600px){
+.li-skill {
+    list-style: none;
+    border: 1px solid rgb(250, 163, 163);
+    background-color: rgb(250, 166, 180);
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.li-skill:hover{
+    border: 1px solid black;
+    background-color: rgba(250,166,180,0.8);
+}
+}
+.summary{
+    background-color: rgb(248, 242, 233);
+    margin: 5px;
+    border-radius: 8px;
+    padding: 1%;
+    line-height: 1.5;
+}
+#PSummary h3{
+    color:rgb(236, 24, 81);
+    margin: 1%;
+}
+.Pcontent{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.position{
+    color: rgb(24, 93, 223);
+    text-indent: 2%;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.date,.loc,.company-name,.resposibilities{
+    text-indent: 4%;
+    padding: 0;
+    margin: 1%;
+}
+.work{
+    padding: 0% 0% 0% 5%;
+    margin: 0;
+}
+.detailed-work{
+    margin: 0;
+}
+#certifications{
+    font-size: 22px;
+    margin: 0%;
+    padding: 2%;
+    text-align: center;
+}
+#certification-tab{
+    padding: 0;
+    margin: 0;
+}
+.certification-list{
+    list-style: none;
+    padding-bottom: 2%;
+    text-align: left;
+
+}
+.bi-patch-check-fill{
+    color: rgb(8, 244, 79);
+}
+.bi-award{
+    color:green ;
+}
+.certification-list:hover{
+    font-size:large;
+}
+.study{
+    color: rgb(24, 93, 223);
+    text-indent: 2%;
+    padding: 0;
+    margin: 0;
+    font-size: medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.batch,.location,.department,.cgpa,.college{
+    text-indent: 4%;
+    padding: 0;
+    margin: 1%;
+    font-size: small;
+}
+.education{
+    display: flex;
+    justify-content:space-around;
+}
+.btech{
+    border: 2px solid rgb(239, 216, 214);
+    margin: 2px;
+    border-radius: 5px;
+    width: 40%;
+}
+.btech:hover{
+    box-shadow: 1px 1px 1px 1px rgb(244, 183, 176);
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: 2px solid rgb(42,136,249);
+    background-color: rgb(42, 136, 249);
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+    margin: 1%;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: rgba(42,136,249,0.9);
+    cursor: pointer;
+    border: 2px solid blue;
+    
+}
+.declare{
+    font-family: sans-serif;
+    background-color: rgb(245, 248, 248);
+    padding: 1% 0% 0% 1%;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 90%;
+}
+#sign{
+    display: flex;
+    justify-content: end;
+    padding: 0% 2% 2% 0%;
+}

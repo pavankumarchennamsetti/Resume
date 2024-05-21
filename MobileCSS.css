@@ -1,0 +1,140 @@
+@media screen and (max-width:950px) {
+    #contact{
+        line-height: 1;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        margin: 1%;
+        background-color:rgb(242, 242, 247);
+        border: 2px dotted black;
+        border-radius: 2px;
+        font-family:sans-serif;
+        letter-spacing: 0.1px;
+        max-width: 100%;
+    }
+    .title{
+        text-align: center;
+        padding: 0;
+    }
+    #contact{
+        font-size: small;
+        display:grid;
+        grid-template-columns: auto auto;
+        line-height: 1.5;
+        justify-content: space-between;
+    }
+    .content{
+        display: block;
+    }
+    #skillset{
+        padding: 1% 0% 0% 0%;
+        font-size: 20px;
+        text-align: center;
+    }
+    div.skills{
+        width: 98%;
+        display: flex;
+    }
+    .li-skill{
+        font-size: 13px;
+        line-height: 1.4;
+    }
+    .skill-tab{
+        border: 2px solid seashell;
+        border-radius: 3px;
+    }
+    #certifications{
+        font-size: 18px;
+        margin: 0%;
+        padding: 2%;
+        text-align: center;
+    }
+    #certification-tab{
+        padding: 0;
+        margin: 0;
+        border: 2px solid seashell;
+        border-radius: 1px;
+    }
+    .certification-list{
+        list-style: none;
+        padding: 2px 0px 1px 4px;
+        font-size: 13px;
+
+    }
+    .certification-list:hover{
+        font-size:14px;
+    }
+    .summary{
+        background-color: rgb(248, 242, 233);
+        margin: 2px;
+        border-radius: 3px;
+        padding: 1%;
+        line-height: 1.3;
+        font-size: 13px;
+    }
+    #PSummary h3{
+        color:rgb(236, 24, 81);
+        margin: 5px;
+    }
+    .study{
+        color: rgb(24, 93, 223);
+        text-indent: 2%;
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 700;
+    }
+    .Pcontent{
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+    .batch,.location,.department,.cgpa,.college{
+        text-indent: 5%;
+        padding: 0;
+        margin: 1%;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:480px){
+    *{
+        box-sizing: border-box;
+    }
+    .title{
+        text-align: center;
+        font-size: 15px;
+    }
+    #career{
+        display: none;
+    }
+    #contact{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .header{
+        background-color: rgb(235, 220, 239);
+    }
+    #skillset{
+        font-size:15px;
+    }
+    .study{
+        color: rgb(24, 93, 223);
+        text-indent: 2%;
+        padding: 0;
+        margin: 0;
+        font-size: 13px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
+    .batch,.location,.department,.cgpa,.college{
+        text-indent: 5%;
+        padding: 0;
+        margin: 1%;
+        font-size: 12px;
+    }
+    
+
+}
