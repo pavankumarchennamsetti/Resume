@@ -24,7 +24,7 @@ body{
 }
 .header{
     padding: 1%;
-    background-color: rgb(190, 242, 106);
+    /*background-color: rgb(190, 242, 106);*/
     /*background-color: cadetblue;*/
     line-height: 0.5;
 }
